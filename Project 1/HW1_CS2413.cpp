@@ -310,9 +310,9 @@ int main() {
 	cout << endl;
 
 	// Call the destructors
-	/*delete A;
+	delete A;
 	delete[] influentialityVector;
-	delete[] activityVector;*/
+	delete[] activityVector;
 
 	return 0;
 }
