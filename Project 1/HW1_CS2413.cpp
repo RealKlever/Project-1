@@ -297,14 +297,14 @@ int main() {
 
 	//Rank users based on how much influential they are
 	int* influentialityVector = (*A).influentialUsers();
-	cout << "Users ranked by Influentiality: " << endl;
+	cout << "Users ranked by Influentiality: ";
 	for (int i = 0; i < (*A).getNumRows(); i++)
 		cout << influentialityVector[i] << " ";
 	cout << endl << endl;
 
 	//Rank users based on how much active they are
 	int* activityVector = (*A).activeUsers();
-	cout << "Users ranked by Activity: " << endl;
+	cout << "Users ranked by Activity: ";
 	for (int i = 0; i < (*A).getNumRows(); i++)
 		cout << activityVector[i] << " ";
 	cout << endl;
